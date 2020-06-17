@@ -1,0 +1,1482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		12ED1714D7674292955DB42B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CCF4828A1AE74E4290FB125A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				25E5346B79C0432086CB0A6E /* CMake Rules */,
+			);
+			dependencies = (
+				9355A46B77F44894892FDAB1 /* PBXTargetDependency */,
+				D238DE56630E48EC898C2412 /* PBXTargetDependency */,
+				DA61B21EF67248C6B28FFA12 /* PBXTargetDependency */,
+				B8475EF37C2D40079B574E13 /* PBXTargetDependency */,
+				3213E3A2CB534C129363B11E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		490A971FF00349A4845701BE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A5DDA2038D449DDB64DC6C3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				84EB7B31D3714A37A1DEA13D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00F627DFD54E4C099290DED6 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = F9D05CF0E24B495BBC005BDA /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include/GLFW/glfw3.h */; };
+		02794FB4468B48B89A8C0925 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/vec.h */ = {isa = PBXBuildFile; fileRef = 308490B9D5C642AE86085A46 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/vec.h */; };
+		0397A540C5A744B89911C4EF /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = BEF242BD7AF7463C86FDC2E2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/input.c */; };
+		03B27467CB6C4AA5BAD559F5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Trackball.h */ = {isa = PBXBuildFile; fileRef = E0265600BE124383871ADF32 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Trackball.h */; };
+		049E81074D2442EEBDAC3CF5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B851D747A9024F19B26E9E3C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/CMakeLists.txt */; };
+		093F75A1AE2E4F5AB5EAA92D /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 9B7FBAEE9A0549B5BA500E5D /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_window.m */; };
+		0B7506E1892746C0B1EA35E1 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zss.h */ = {isa = PBXBuildFile; fileRef = 62B47EDDF01045B1B3683CEA /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zss.h */; };
+		0C81CFEE0AF74BB0963F3CC1 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/SourcePath.cpp */ = {isa = PBXBuildFile; fileRef = B931BA3170034207B3D7982A /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/SourcePath.cpp */; };
+		10CFC842DB864F5BABAC434E /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = 7BCFD7AC27454119BEF4A7C9 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/internal.h */; };
+		1648375F684849D4B58C40E2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngenc.cpp */ = {isa = PBXBuildFile; fileRef = 763CFE33CA47453AA042BBD5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngenc.cpp */; };
+		1C95D0626F7849EDA1693DE0 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = C910C963CE79427AB317DA51 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/posix_tls.c */; };
+		1DC73293D8744600A9A89CFC /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/png.cpp */ = {isa = PBXBuildFile; fileRef = 21AEB2D4E02C4F4AA5B45465 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/png.cpp */; };
+		20E2CDF15DB747FC8F3232A0 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = ACF8A4E87278409786B137A3 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/nsgl_context.h */; };
+		25481B7EC7F64A98BCE7EC87 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 8F464C8F57484346B15ED5F7 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_time.c */; };
+		25826DB641CC4F5DAB92C6A1 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 24D9B2F276B2450E8FA77E67 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/CMakeLists.txt */; };
+		258FC5693ABF46C7B675F7F2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/ObjMesh.cpp */ = {isa = PBXBuildFile; fileRef = 38091A9B0FCA4BF4A05416A8 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/ObjMesh.cpp */; };
+		27A29D6E07044B90A3FB0D8B /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 11AE1953AA7F45B79613AA33 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_monitor.m */; };
+		2FF2A14049FE45ED898831D7 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/CheckError.h */ = {isa = PBXBuildFile; fileRef = 28792987F7C145228FB122BB /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/CheckError.h */; };
+		385269CE5A80425F959964BD /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps/glad.c */ = {isa = PBXBuildFile; fileRef = C0512CAD304244988688D1F2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps/glad.c */; };
+		41973BE9110043A1975FC79E /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Trackball.cpp */ = {isa = PBXBuildFile; fileRef = C84BF8CA8AD949A9B80BEA0F /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Trackball.cpp */; };
+		426FAB742FF4421EB996DDAE /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zss.cpp */ = {isa = PBXBuildFile; fileRef = 50DAD77967FF4C35AFACB6D2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zss.cpp */; };
+		4C312C0B13444A428C1C4EA7 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = A573DAF59B574A01BF6F3039 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/monitor.c */; };
+		510A82D6882D4CBE827A4A14 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 35608185B8D54869A94E8414 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/CMakeLists.txt */; };
+		5383951040F84F299E5B6C47 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = BD319506B73741D18AD7D614 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_joystick.h */; };
+		62EC936DED2A4B198DE0AEF2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/mat.h */ = {isa = PBXBuildFile; fileRef = BD1C367F33AF4E8A92955BA4 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/mat.h */; };
+		656C1FEBF59B4754AACFC687 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = F69B6685C9C546EFB243D956 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/nsgl_context.m */; };
+		69D1A1058D5F4970AF59CDB3 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zenc.h */ = {isa = PBXBuildFile; fileRef = D3B255723A264571806E2C72 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zenc.h */; };
+		780B360AC0544E739051797F /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = E82DE099A8004E96A6C61236 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/vulkan.c */; };
+		787D0CD5E9CF49219A24299B /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/SourcePath.h */ = {isa = PBXBuildFile; fileRef = 41D88048EFAC4732BF16EE88 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/SourcePath.h */; };
+		78C8E4753C784D79A9F4272E /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/CMakeFiles/raytracer.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = D22BAD15D0DC49DAB105602C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/CMakeFiles/raytracer.dir/Info.plist */; };
+		7A09930D912A4B17B059ED4D /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DDC26A1217564CBE83B192E4 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/CMakeLists.txt */; };
+		82F4AD1233824DA49A300E26 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/main.cpp */ = {isa = PBXBuildFile; fileRef = 41AA7177387E48C4BAB70820 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/main.cpp */; };
+		85CE7D41EF714E9B85B04210 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = 4A7D0A6705774AD58AD41263 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/context.c */; };
+		8D500D5D16A047889FA10BAE /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 3A3A50602C434B709C85ED6E /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/glfw_config.h */; };
+		92B17876108541378427DBF5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 5522832576CD411B9A9B8447 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_joystick.m */; };
+		93F0047C069C4242A948CEF2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngenc.h */ = {isa = PBXBuildFile; fileRef = 088EB8B8A82A446AB28112C6 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngenc.h */; };
+		9445B25C63E44563B7F44D1F /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 85EACE035920440BAB14FA53 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/posix_tls.h */; };
+		9751D18D33C64651B63B7158 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/png.h */ = {isa = PBXBuildFile; fileRef = 2916E5B952B0461CA97CF0C0 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/png.h */; };
+		A67928D1D69F4A49ADC05BB7 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = FD3B16AA3EA549D4B1094871 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_init.m */; };
+		A9991F1FC06E459BA78892BC /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/ObjMesh.h */ = {isa = PBXBuildFile; fileRef = DC51BDA399924003ADCB1548 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/ObjMesh.h */; };
+		B1790713C1F64A438579BBFD /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = 62BA00B2AA3845B6B1BC04EC /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/window.c */; };
+		B44F79CFC8ED486896E4176E /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = EA45B9D07E96439C8AC69709 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include/GLFW/glfw3native.h */; };
+		B7835C21F2FB4A60A9B27D8C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zdec.h */ = {isa = PBXBuildFile; fileRef = 5ABBAFED0ED4457F81F3B792 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zdec.h */; };
+		C528DBDA1EFA40CFB5FD92D5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngdec.cpp */ = {isa = PBXBuildFile; fileRef = 461088407E794A648153E55C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngdec.cpp */; };
+		CB710516BFAC4435B4B5B330 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders/fshader.glsl */ = {isa = PBXBuildFile; fileRef = D2401BAD2AD648A18DC78684 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders/fshader.glsl */; };
+		CC376EDC884A4DA3A45D8DC5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zdec.cpp */ = {isa = PBXBuildFile; fileRef = BFDFAFF2A5B74ACF8EF3930F /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zdec.cpp */; };
+		CD292F28FB174BEC856BBC2C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Object.cpp */ = {isa = PBXBuildFile; fileRef = 46CEC98BB11F4B9AA4ED7085 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Object.cpp */; };
+		D3EBCA53DEF043C8874524FD /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Object.h */ = {isa = PBXBuildFile; fileRef = 078CAF5C68314B28936ABBF5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Object.h */; };
+		DBF13C9459DE486895B5B15A /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps/glad/glad.h */ = {isa = PBXBuildFile; fileRef = 3EE71CB588024A17A0BA4DFF /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps/glad/glad.h */; };
+		E1B4FE24EE394D40B721A48D /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zenc.cpp */ = {isa = PBXBuildFile; fileRef = AECAE0B1496547C7864C6F83 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zenc.cpp */; };
+		E89BA58B5BB54BA5B7F97035 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 555BA992E17F45A4B92CB351 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_platform.h */; };
+		ED230C820EF74E059FAFD905 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngdec.h */ = {isa = PBXBuildFile; fileRef = 585E08DFE3D64A069268EABF /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngdec.h */; };
+		F17D67F31308415C804FF482 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders/vshader.glsl */ = {isa = PBXBuildFile; fileRef = EF2BC63D7B3C490EAA1BD739 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders/vshader.glsl */; };
+		F2638BC32F3E4F7FAD73F26B /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = 451A716193A84A1C98D01ABE /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/init.c */; };
+		F72C9BC9B5D5474C9C4BF92A /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/common.h */ = {isa = PBXBuildFile; fileRef = BF0E6F5527954BFD90D70E4C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/common.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1D466C3B79B1419A86723856 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		3E01FCBE44C942878A8CC852 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A49CBD7ABF99422EA81F20AC /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		F480090393D244F0A6D63748 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1AC44D7875104A5E8DD1A318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3DF5CB5C20481CAB416C15;
+			remoteInfo = glfw;
+		};
+		1C47EF8AEE7C4AA7B8355AEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB261FECA796469987EC1DBA;
+			remoteInfo = glad;
+		};
+		25296E164ADA45F299CB34EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB261FECA796469987EC1DBA;
+			remoteInfo = glad;
+		};
+		34C9163725CF46A99D9DC4FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3DF5CB5C20481CAB416C15;
+			remoteInfo = glfw;
+		};
+		3A0FCE9AE3F34BA79A85378E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490A971FF00349A4845701BE;
+			remoteInfo = ZERO_CHECK;
+		};
+		4B5050F714B3493395104CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B44C233C071C434096609FEC;
+			remoteInfo = raytracer;
+		};
+		54818F7648BF4A87915C37B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3DF5CB5C20481CAB416C15;
+			remoteInfo = glfw;
+		};
+		8CB6ADB729E9431ABAE855CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3DF5CB5C20481CAB416C15;
+			remoteInfo = glfw;
+		};
+		96E647A94176420BB981E6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490A971FF00349A4845701BE;
+			remoteInfo = ZERO_CHECK;
+		};
+		B7FA5A37F5AE4D0FA1533E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490A971FF00349A4845701BE;
+			remoteInfo = ZERO_CHECK;
+		};
+		CA7F28A6ABCF4ED09874AF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490A971FF00349A4845701BE;
+			remoteInfo = ZERO_CHECK;
+		};
+		D8E717351D59455794920C2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA735A96197C468398F49E2A;
+			remoteInfo = pngdecode;
+		};
+		DD43395DCDDE4E93A5325D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490A971FF00349A4845701BE;
+			remoteInfo = ZERO_CHECK;
+		};
+		F0781D40A7984EE997FE9603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB261FECA796469987EC1DBA;
+			remoteInfo = glad;
+		};
+		FBBA43B8A78B488BAB2D00CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA735A96197C468398F49E2A;
+			remoteInfo = pngdecode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078CAF5C68314B28936ABBF5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Object.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Object.h; path = source/common/Object.h; sourceTree = SOURCE_ROOT; };
+		088EB8B8A82A446AB28112C6 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngenc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pngenc.h; path = pngdecode/pngenc.h; sourceTree = SOURCE_ROOT; };
+		11AE1953AA7F45B79613AA33 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "glfw-3.2/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
+		21AEB2D4E02C4F4AA5B45465 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/png.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = png.cpp; path = pngdecode/png.cpp; sourceTree = SOURCE_ROOT; };
+		24D9B2F276B2450E8FA77E67 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = pngdecode/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		28792987F7C145228FB122BB /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/CheckError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CheckError.h; path = source/common/CheckError.h; sourceTree = SOURCE_ROOT; };
+		2916E5B952B0461CA97CF0C0 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/png.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = png.h; path = pngdecode/png.h; sourceTree = SOURCE_ROOT; };
+		2B7CF03D6CDE4567B6F64F64 /* glad */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		308490B9D5C642AE86085A46 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = source/common/vec.h; sourceTree = SOURCE_ROOT; };
+		35608185B8D54869A94E8414 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		38091A9B0FCA4BF4A05416A8 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/ObjMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ObjMesh.cpp; path = source/common/ObjMesh.cpp; sourceTree = SOURCE_ROOT; };
+		3A3A50602C434B709C85ED6E /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		3A95396DEE6B44DBBA374171 /* pngdecode */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpngdecode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE71CB588024A17A0BA4DFF /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps/glad/glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = "glfw-3.2/deps/glad/glad.h"; sourceTree = SOURCE_ROOT; };
+		41AA7177387E48C4BAB70820 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = source/main.cpp; sourceTree = SOURCE_ROOT; };
+		41D88048EFAC4732BF16EE88 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/SourcePath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SourcePath.h; path = source/common/SourcePath.h; sourceTree = SOURCE_ROOT; };
+		451A716193A84A1C98D01ABE /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "glfw-3.2/src/init.c"; sourceTree = SOURCE_ROOT; };
+		461088407E794A648153E55C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngdec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pngdec.cpp; path = pngdecode/pngdec.cpp; sourceTree = SOURCE_ROOT; };
+		46CEC98BB11F4B9AA4ED7085 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Object.cpp; path = source/common/Object.cpp; sourceTree = SOURCE_ROOT; };
+		4A7D0A6705774AD58AD41263 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "glfw-3.2/src/context.c"; sourceTree = SOURCE_ROOT; };
+		50DAD77967FF4C35AFACB6D2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zss.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zss.cpp; path = pngdecode/zss.cpp; sourceTree = SOURCE_ROOT; };
+		5522832576CD411B9A9B8447 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "glfw-3.2/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
+		555BA992E17F45A4B92CB351 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "glfw-3.2/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
+		585E08DFE3D64A069268EABF /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngdec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pngdec.h; path = pngdecode/pngdec.h; sourceTree = SOURCE_ROOT; };
+		5ABBAFED0ED4457F81F3B792 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zdec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zdec.h; path = pngdecode/zdec.h; sourceTree = SOURCE_ROOT; };
+		62B47EDDF01045B1B3683CEA /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zss.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zss.h; path = pngdecode/zss.h; sourceTree = SOURCE_ROOT; };
+		62BA00B2AA3845B6B1BC04EC /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "glfw-3.2/src/window.c"; sourceTree = SOURCE_ROOT; };
+		763CFE33CA47453AA042BBD5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngenc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pngenc.cpp; path = pngdecode/pngenc.cpp; sourceTree = SOURCE_ROOT; };
+		7BCFD7AC27454119BEF4A7C9 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "glfw-3.2/src/internal.h"; sourceTree = SOURCE_ROOT; };
+		85EACE035920440BAB14FA53 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = "glfw-3.2/src/posix_tls.h"; sourceTree = SOURCE_ROOT; };
+		8F464C8F57484346B15ED5F7 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = "glfw-3.2/src/cocoa_time.c"; sourceTree = SOURCE_ROOT; };
+		9B7FBAEE9A0549B5BA500E5D /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "glfw-3.2/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
+		A27B2E7DA92C444D8B168296 /* raytracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = raytracer; sourceTree = BUILT_PRODUCTS_DIR; };
+		A573DAF59B574A01BF6F3039 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "glfw-3.2/src/monitor.c"; sourceTree = SOURCE_ROOT; };
+		AA118ED94BBC44EBB181061F /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AC83200EDC02444FB852F8C2 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF8A4E87278409786B137A3 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = "glfw-3.2/src/nsgl_context.h"; sourceTree = SOURCE_ROOT; };
+		AECAE0B1496547C7864C6F83 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zenc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zenc.cpp; path = pngdecode/zenc.cpp; sourceTree = SOURCE_ROOT; };
+		B851D747A9024F19B26E9E3C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B931BA3170034207B3D7982A /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/SourcePath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SourcePath.cpp; path = source/common/SourcePath.cpp; sourceTree = SOURCE_ROOT; };
+		BD1C367F33AF4E8A92955BA4 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/mat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.h; path = source/common/mat.h; sourceTree = SOURCE_ROOT; };
+		BD319506B73741D18AD7D614 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "glfw-3.2/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
+		BEF242BD7AF7463C86FDC2E2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "glfw-3.2/src/input.c"; sourceTree = SOURCE_ROOT; };
+		BF0E6F5527954BFD90D70E4C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = source/common/common.h; sourceTree = SOURCE_ROOT; };
+		BFDFAFF2A5B74ACF8EF3930F /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zdec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zdec.cpp; path = pngdecode/zdec.cpp; sourceTree = SOURCE_ROOT; };
+		C0512CAD304244988688D1F2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = "glfw-3.2/deps/glad.c"; sourceTree = SOURCE_ROOT; };
+		C84BF8CA8AD949A9B80BEA0F /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Trackball.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Trackball.cpp; path = source/common/Trackball.cpp; sourceTree = SOURCE_ROOT; };
+		C910C963CE79427AB317DA51 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = "glfw-3.2/src/posix_tls.c"; sourceTree = SOURCE_ROOT; };
+		D22BAD15D0DC49DAB105602C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/CMakeFiles/raytracer.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/CMakeFiles/raytracer.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		D2401BAD2AD648A18DC78684 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders/fshader.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader.glsl; path = shaders/fshader.glsl; sourceTree = SOURCE_ROOT; };
+		D3B255723A264571806E2C72 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zenc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = zenc.h; path = pngdecode/zenc.h; sourceTree = SOURCE_ROOT; };
+		DC51BDA399924003ADCB1548 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/ObjMesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ObjMesh.h; path = source/common/ObjMesh.h; sourceTree = SOURCE_ROOT; };
+		DDC26A1217564CBE83B192E4 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "glfw-3.2/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		E0265600BE124383871ADF32 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Trackball.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Trackball.h; path = source/common/Trackball.h; sourceTree = SOURCE_ROOT; };
+		E82DE099A8004E96A6C61236 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "glfw-3.2/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
+		EA45B9D07E96439C8AC69709 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "glfw-3.2/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
+		EF2BC63D7B3C490EAA1BD739 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders/vshader.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader.glsl; path = shaders/vshader.glsl; sourceTree = SOURCE_ROOT; };
+		F69B6685C9C546EFB243D956 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "glfw-3.2/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
+		F9D05CF0E24B495BBC005BDA /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "glfw-3.2/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
+		FD3B16AA3EA549D4B1094871 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "glfw-3.2/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		000B016EEA3E49D986EC027C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CF03D6CDE4567B6F64F64 /* glad */,
+				A27B2E7DA92C444D8B168296 /* raytracer */,
+				AC83200EDC02444FB852F8C2 /* glfw */,
+				3A95396DEE6B44DBBA374171 /* pngdecode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176572D69F334F5599A9A1F2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				41FAD2D7109F41FFB0C86EE3 /* CMake Rules */,
+				AA118ED94BBC44EBB181061F /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1E22C6EBBB6446F087949367 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				A9954567C7EF4CABA6791FE0 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		2603514E6FED4C2CB19CF9FC = {
+			isa = PBXGroup;
+			children = (
+				64C4633A512E45289FA02171 /* raytracer */,
+				47087660035544FC9666D9D3 /* glad */,
+				176572D69F334F5599A9A1F2 /* ALL_BUILD */,
+				1E22C6EBBB6446F087949367 /* GLFW3 */,
+				7919830811ED4AC098666DCF /* pngdecode */,
+				000B016EEA3E49D986EC027C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31A744D37B7F45CBA12B6540 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				38091A9B0FCA4BF4A05416A8 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/ObjMesh.cpp */,
+				46CEC98BB11F4B9AA4ED7085 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Object.cpp */,
+				B931BA3170034207B3D7982A /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/SourcePath.cpp */,
+				C84BF8CA8AD949A9B80BEA0F /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Trackball.cpp */,
+				41AA7177387E48C4BAB70820 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3702F09D315D4E97BB79BF72 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				28792987F7C145228FB122BB /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/CheckError.h */,
+				DC51BDA399924003ADCB1548 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/ObjMesh.h */,
+				078CAF5C68314B28936ABBF5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Object.h */,
+				41D88048EFAC4732BF16EE88 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/SourcePath.h */,
+				E0265600BE124383871ADF32 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Trackball.h */,
+				BF0E6F5527954BFD90D70E4C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/common.h */,
+				BD1C367F33AF4E8A92955BA4 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/mat.h */,
+				308490B9D5C642AE86085A46 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/vec.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		41FAD2D7109F41FFB0C86EE3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		47087660035544FC9666D9D3 /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				71024A35E1624862B77A706C /* Header Files */,
+				DFD2522A39084434B4994841 /* Source Files */,
+				35608185B8D54869A94E8414 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/CMakeLists.txt */,
+			);
+			name = glad;
+			sourceTree = "<group>";
+		};
+		64C4633A512E45289FA02171 /* raytracer */ = {
+			isa = PBXGroup;
+			children = (
+				31A744D37B7F45CBA12B6540 /* Source Files */,
+				3702F09D315D4E97BB79BF72 /* Header Files */,
+				FA23BBAACF8F4915BF1425CF /* Resources */,
+				B851D747A9024F19B26E9E3C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/CMakeLists.txt */,
+				D2401BAD2AD648A18DC78684 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders/fshader.glsl */,
+				EF2BC63D7B3C490EAA1BD739 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders/vshader.glsl */,
+			);
+			name = raytracer;
+			sourceTree = "<group>";
+		};
+		71024A35E1624862B77A706C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EE71CB588024A17A0BA4DFF /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps/glad/glad.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7919830811ED4AC098666DCF /* pngdecode */ = {
+			isa = PBXGroup;
+			children = (
+				EA7DE8B5F2954CEA95F08133 /* Source Files */,
+				F52FCE22183E4AB18CA231CB /* Header Files */,
+				24D9B2F276B2450E8FA77E67 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/CMakeLists.txt */,
+			);
+			name = pngdecode;
+			sourceTree = "<group>";
+		};
+		8FEFEC2255BE4985B3ED7122 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A3A50602C434B709C85ED6E /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/glfw_config.h */,
+				F9D05CF0E24B495BBC005BDA /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include/GLFW/glfw3.h */,
+				EA45B9D07E96439C8AC69709 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include/GLFW/glfw3native.h */,
+				BD319506B73741D18AD7D614 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_joystick.h */,
+				555BA992E17F45A4B92CB351 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_platform.h */,
+				7BCFD7AC27454119BEF4A7C9 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/internal.h */,
+				ACF8A4E87278409786B137A3 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/nsgl_context.h */,
+				85EACE035920440BAB14FA53 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A9954567C7EF4CABA6791FE0 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				F5FF2BF82EAB45B79B89011A /* Source Files */,
+				8FEFEC2255BE4985B3ED7122 /* Header Files */,
+				DDC26A1217564CBE83B192E4 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		DFD2522A39084434B4994841 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0512CAD304244988688D1F2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps/glad.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EA7DE8B5F2954CEA95F08133 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				21AEB2D4E02C4F4AA5B45465 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/png.cpp */,
+				461088407E794A648153E55C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngdec.cpp */,
+				763CFE33CA47453AA042BBD5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngenc.cpp */,
+				BFDFAFF2A5B74ACF8EF3930F /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zdec.cpp */,
+				AECAE0B1496547C7864C6F83 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zenc.cpp */,
+				50DAD77967FF4C35AFACB6D2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zss.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F52FCE22183E4AB18CA231CB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2916E5B952B0461CA97CF0C0 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/png.h */,
+				585E08DFE3D64A069268EABF /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngdec.h */,
+				088EB8B8A82A446AB28112C6 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngenc.h */,
+				5ABBAFED0ED4457F81F3B792 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zdec.h */,
+				D3B255723A264571806E2C72 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zenc.h */,
+				62B47EDDF01045B1B3683CEA /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zss.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F5FF2BF82EAB45B79B89011A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD3B16AA3EA549D4B1094871 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_init.m */,
+				5522832576CD411B9A9B8447 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_joystick.m */,
+				11AE1953AA7F45B79613AA33 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_monitor.m */,
+				8F464C8F57484346B15ED5F7 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_time.c */,
+				9B7FBAEE9A0549B5BA500E5D /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_window.m */,
+				4A7D0A6705774AD58AD41263 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/context.c */,
+				451A716193A84A1C98D01ABE /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/init.c */,
+				BEF242BD7AF7463C86FDC2E2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/input.c */,
+				A573DAF59B574A01BF6F3039 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/monitor.c */,
+				F69B6685C9C546EFB243D956 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/nsgl_context.m */,
+				C910C963CE79427AB317DA51 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/posix_tls.c */,
+				E82DE099A8004E96A6C61236 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/vulkan.c */,
+				62BA00B2AA3845B6B1BC04EC /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FA23BBAACF8F4915BF1425CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D22BAD15D0DC49DAB105602C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/CMakeFiles/raytracer.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B3DF5CB5C20481CAB416C15 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1BCF1596EF47FE924A1398 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				69EE004FED4B423D9C2CE0F4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75C935E63044EF093A0998D /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = AC83200EDC02444FB852F8C2 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB261FECA796469987EC1DBA /* glad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A248BFA34D934CF188C4229D /* Build configuration list for PBXNativeTarget "glad" */;
+			buildPhases = (
+				E503CFC6F3D0416FAC27C554 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B1517644B24B17A36CEB7D /* PBXTargetDependency */,
+				D6E6AC9B8E1A401DADB73FAA /* PBXTargetDependency */,
+			);
+			name = glad;
+			productName = glad;
+			productReference = 2B7CF03D6CDE4567B6F64F64 /* glad */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B44C233C071C434096609FEC /* raytracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D4C552792404298B0BF02D7 /* Build configuration list for PBXNativeTarget "raytracer" */;
+			buildPhases = (
+				165EBE79D46446F9B9A0A203 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C89D2DFE3D2843A8B1EBFFD3 /* PBXTargetDependency */,
+				90E57F4A5B254724B9C6BDD8 /* PBXTargetDependency */,
+				C2724AB3150840A4807BE11E /* PBXTargetDependency */,
+				B239A328E4774DFE857D7F11 /* PBXTargetDependency */,
+			);
+			name = raytracer;
+			productName = raytracer;
+			productReference = A27B2E7DA92C444D8B168296 /* raytracer */;
+			productType = "com.apple.product-type.application";
+		};
+		DA735A96197C468398F49E2A /* pngdecode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D35372D39E2497CB4B25D22 /* Build configuration list for PBXNativeTarget "pngdecode" */;
+			buildPhases = (
+				4321BB05B9ED4F15BE209F1E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93C20E3F7AC423192DD816F /* PBXTargetDependency */,
+				F8E4C3D8223C41208A331BE6 /* PBXTargetDependency */,
+				46AEF22C35C943BEB81DF28D /* PBXTargetDependency */,
+			);
+			name = pngdecode;
+			productName = pngdecode;
+			productReference = 3A95396DEE6B44DBBA374171 /* pngdecode */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0F70CE3F5543FFA92564D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0820;
+			};
+			buildConfigurationList = 5781029DF5AB435CB83553D6 /* Build configuration list for PBXProject "RAYTRACER" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3E01FCBE44C942878A8CC852 /* Debug */,
+				F480090393D244F0A6D63748 /* Release */,
+				A49CBD7ABF99422EA81F20AC /* MinSizeRel */,
+				1D466C3B79B1419A86723856 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2603514E6FED4C2CB19CF9FC;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				12ED1714D7674292955DB42B /* ALL_BUILD */,
+				490A971FF00349A4845701BE /* ZERO_CHECK */,
+				AB261FECA796469987EC1DBA /* glad */,
+				B44C233C071C434096609FEC /* raytracer */,
+				6B3DF5CB5C20481CAB416C15 /* glfw */,
+				DA735A96197C468398F49E2A /* pngdecode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25E5346B79C0432086CB0A6E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/noahhendlish/Desktop/Fall\\ 2018/CMPS/Intro\\ to\\ Computer\\ Graphics/project/raytracer/raytracing/build -f /Users/noahhendlish/Desktop/Fall\\ 2018/CMPS/Intro\\ to\\ Computer\\ Graphics/project/raytracer/raytracing/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		84EB7B31D3714A37A1DEA13D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/noahhendlish/Desktop/Fall\\ 2018/CMPS/Intro\\ to\\ Computer\\ Graphics/project/raytracer/raytracing/build -f /Users/noahhendlish/Desktop/Fall\\ 2018/CMPS/Intro\\ to\\ Computer\\ Graphics/project/raytracer/raytracing/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9B62EE23C6FF486B941DF82A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B908FA03D9DE46AF93AF0239 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		165EBE79D46446F9B9A0A203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258FC5693ABF46C7B675F7F2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/ObjMesh.cpp */,
+				CD292F28FB174BEC856BBC2C /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Object.cpp */,
+				0C81CFEE0AF74BB0963F3CC1 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/SourcePath.cpp */,
+				41973BE9110043A1975FC79E /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common/Trackball.cpp */,
+				82F4AD1233824DA49A300E26 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4321BB05B9ED4F15BE209F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC73293D8744600A9A89CFC /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/png.cpp */,
+				C528DBDA1EFA40CFB5FD92D5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngdec.cpp */,
+				1648375F684849D4B58C40E2 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/pngenc.cpp */,
+				CC376EDC884A4DA3A45D8DC5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zdec.cpp */,
+				E1B4FE24EE394D40B721A48D /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zenc.cpp */,
+				426FAB742FF4421EB996DDAE /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode/zss.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EE004FED4B423D9C2CE0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67928D1D69F4A49ADC05BB7 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_init.m */,
+				92B17876108541378427DBF5 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_joystick.m */,
+				27A29D6E07044B90A3FB0D8B /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_monitor.m */,
+				25481B7EC7F64A98BCE7EC87 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_time.c */,
+				093F75A1AE2E4F5AB5EAA92D /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/cocoa_window.m */,
+				85CE7D41EF714E9B85B04210 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/context.c */,
+				F2638BC32F3E4F7FAD73F26B /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/init.c */,
+				0397A540C5A744B89911C4EF /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/input.c */,
+				4C312C0B13444A428C1C4EA7 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/monitor.c */,
+				656C1FEBF59B4754AACFC687 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/nsgl_context.m */,
+				1C95D0626F7849EDA1693DE0 /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/posix_tls.c */,
+				780B360AC0544E739051797F /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/vulkan.c */,
+				B1790713C1F64A438579BBFD /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E503CFC6F3D0416FAC27C554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385269CE5A80425F959964BD /* /Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps/glad.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3213E3A2CB534C129363B11E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490A971FF00349A4845701BE /* ZERO_CHECK */;
+			targetProxy = DD43395DCDDE4E93A5325D51 /* PBXContainerItemProxy */;
+		};
+		46AEF22C35C943BEB81DF28D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490A971FF00349A4845701BE /* ZERO_CHECK */;
+			targetProxy = 96E647A94176420BB981E6BE /* PBXContainerItemProxy */;
+		};
+		86B1517644B24B17A36CEB7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B3DF5CB5C20481CAB416C15 /* glfw */;
+			targetProxy = 1AC44D7875104A5E8DD1A318 /* PBXContainerItemProxy */;
+		};
+		90E57F4A5B254724B9C6BDD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA735A96197C468398F49E2A /* pngdecode */;
+			targetProxy = FBBA43B8A78B488BAB2D00CE /* PBXContainerItemProxy */;
+		};
+		9355A46B77F44894892FDAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B3DF5CB5C20481CAB416C15 /* glfw */;
+			targetProxy = 8CB6ADB729E9431ABAE855CC /* PBXContainerItemProxy */;
+		};
+		B239A328E4774DFE857D7F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490A971FF00349A4845701BE /* ZERO_CHECK */;
+			targetProxy = 3A0FCE9AE3F34BA79A85378E /* PBXContainerItemProxy */;
+		};
+		B75C935E63044EF093A0998D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490A971FF00349A4845701BE /* ZERO_CHECK */;
+			targetProxy = CA7F28A6ABCF4ED09874AF83 /* PBXContainerItemProxy */;
+		};
+		B8475EF37C2D40079B574E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB261FECA796469987EC1DBA /* glad */;
+			targetProxy = 25296E164ADA45F299CB34EC /* PBXContainerItemProxy */;
+		};
+		C2724AB3150840A4807BE11E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB261FECA796469987EC1DBA /* glad */;
+			targetProxy = F0781D40A7984EE997FE9603 /* PBXContainerItemProxy */;
+		};
+		C89D2DFE3D2843A8B1EBFFD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B3DF5CB5C20481CAB416C15 /* glfw */;
+			targetProxy = 34C9163725CF46A99D9DC4FA /* PBXContainerItemProxy */;
+		};
+		D238DE56630E48EC898C2412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA735A96197C468398F49E2A /* pngdecode */;
+			targetProxy = D8E717351D59455794920C2B /* PBXContainerItemProxy */;
+		};
+		D6E6AC9B8E1A401DADB73FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490A971FF00349A4845701BE /* ZERO_CHECK */;
+			targetProxy = B7FA5A37F5AE4D0FA1533E66 /* PBXContainerItemProxy */;
+		};
+		DA61B21EF67248C6B28FFA12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B44C233C071C434096609FEC /* raytracer */;
+			targetProxy = 4B5050F714B3493395104CE4 /* PBXContainerItemProxy */;
+		};
+		F8E4C3D8223C41208A331BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB261FECA796469987EC1DBA /* glad */;
+			targetProxy = 1C47EF8AEE7C4AA7B8355AEE /* PBXContainerItemProxy */;
+		};
+		F93C20E3F7AC423192DD816F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B3DF5CB5C20481CAB416C15 /* glfw */;
+			targetProxy = 54818F7648BF4A87915C37B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04F5911B4D094E22B4527364 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INFOPLIST_FILE = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/CMakeFiles/raytracer.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/MinSizeRel/libglfw3.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/MinSizeRel/libglad.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/pngdecode/MinSizeRel/libpngdecode.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/MinSizeRel/libglad.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/MinSizeRel/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raytracer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0722199AF5384A4B9F460060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INFOPLIST_FILE = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/CMakeFiles/raytracer.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/Debug/libglfw3.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/Debug/libglad.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/pngdecode/Debug/libpngdecode.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/Debug/libglad.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/Debug/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raytracer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		105C4CF8FB654F4FBF4B4DBC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		16D42D3E0E7B45CDB4E2C0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1B8EDBAFD3444CEAA0A63170 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2622B6B678D242BEB5363FF9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3241858E536C4ADCB5048766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3920A32A335B473D9851B232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3BCB47EB676A45A99C4CC9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		457A8A310822473DBEDA1F3F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pngdecode;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/pngdecode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6027D65256204950AF696374 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		758BCC6D57994850BEF6DDFA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		81A16D5B3AF4447AAC7A5525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8C23BF9E09D5469583C6BB1D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pngdecode;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/pngdecode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8C91D6583E9C47DA80EC5CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8CF4C59165C44B8C87B151B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/build";
+			};
+			name = Debug;
+		};
+		938558A559F24DB29568F564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/build";
+			};
+			name = Release;
+		};
+		A567FAD23EBD47A4A1236366 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AD41F7AED26D4E46B2798A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pngdecode;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/pngdecode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C1061CC779D74CC2937B3049 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C139B667CBC54C368EBF1C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D195269BDA66466DB7F25E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC -Wall -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/src\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D94ABDC72C0F41D8B24C2E3F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DC80B640F44A49BFB7FB652B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INFOPLIST_FILE = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/CMakeFiles/raytracer.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/RelWithDebInfo/libglfw3.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/RelWithDebInfo/libglad.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/pngdecode/RelWithDebInfo/libpngdecode.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/RelWithDebInfo/libglad.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/RelWithDebInfo/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raytracer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E0F49BBC1D6349E4837DE52F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E1562F64942F438CBAF688E8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/build";
+			};
+			name = MinSizeRel;
+		};
+		E5A8D6ACDAF442CF99C582CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pngdecode;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/pngdecode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FB289CE2DC2D4581A75CB8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\"","\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"");
+				INFOPLIST_FILE = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/CMakeFiles/raytracer.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/deps\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/pngdecode\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/source/common\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/shaders\" -I\"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/glfw-3.2/include\"   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/Release/libglfw3.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/Release/libglad.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/pngdecode/Release/libpngdecode.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/Release/libglad.a\" \"/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build/glfw-3.2/src/Release/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raytracer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/noahhendlish/Desktop/Fall 2018/CMPS/Intro to Computer Graphics/project/raytracer/raytracing/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D35372D39E2497CB4B25D22 /* Build configuration list for PBXNativeTarget "pngdecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A8D6ACDAF442CF99C582CD /* Debug */,
+				AD41F7AED26D4E46B2798A1E /* Release */,
+				457A8A310822473DBEDA1F3F /* MinSizeRel */,
+				8C23BF9E09D5469583C6BB1D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D4C552792404298B0BF02D7 /* Build configuration list for PBXNativeTarget "raytracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0722199AF5384A4B9F460060 /* Debug */,
+				FB289CE2DC2D4581A75CB8DB /* Release */,
+				04F5911B4D094E22B4527364 /* MinSizeRel */,
+				DC80B640F44A49BFB7FB652B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A5DDA2038D449DDB64DC6C3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81A16D5B3AF4447AAC7A5525 /* Debug */,
+				3BCB47EB676A45A99C4CC9B8 /* Release */,
+				1B8EDBAFD3444CEAA0A63170 /* MinSizeRel */,
+				2622B6B678D242BEB5363FF9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E1BCF1596EF47FE924A1398 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D195269BDA66466DB7F25E6C /* Debug */,
+				3920A32A335B473D9851B232 /* Release */,
+				A567FAD23EBD47A4A1236366 /* MinSizeRel */,
+				C1061CC779D74CC2937B3049 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5781029DF5AB435CB83553D6 /* Build configuration list for PBXProject "RAYTRACER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF4C59165C44B8C87B151B1 /* Debug */,
+				938558A559F24DB29568F564 /* Release */,
+				E1562F64942F438CBAF688E8 /* MinSizeRel */,
+				E0F49BBC1D6349E4837DE52F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A248BFA34D934CF188C4229D /* Build configuration list for PBXNativeTarget "glad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3241858E536C4ADCB5048766 /* Debug */,
+				16D42D3E0E7B45CDB4E2C0A1 /* Release */,
+				105C4CF8FB654F4FBF4B4DBC /* MinSizeRel */,
+				D94ABDC72C0F41D8B24C2E3F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCF4828A1AE74E4290FB125A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C91D6583E9C47DA80EC5CC6 /* Debug */,
+				C139B667CBC54C368EBF1C36 /* Release */,
+				6027D65256204950AF696374 /* MinSizeRel */,
+				758BCC6D57994850BEF6DDFA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0F70CE3F5543FFA92564D0 /* Project object */;
+}
